@@ -21,3 +21,13 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# mac：忽略 mac 系统的缓存文件
+.DS_Store
+
+# idea: 忽略所有的 idea 项目配置文件
+.idea
+
+
+# mavne 项目相关的忽略
+target
