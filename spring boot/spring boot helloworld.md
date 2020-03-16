@@ -21,5 +21,6 @@ Spring boot 特性
 
 
 1. 创建一个 Maven 项目
- ![avatar](./Snip20200316_10.png)
- ![avatar](./Snip20200316_11.png)
+ ![#](/Snip20200316_10.png)
+ ![#](/Snip20200316_11.png)
+ ![#](/Snip20200316_12.png)
