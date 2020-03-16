@@ -47,3 +47,45 @@ Spring boot 特性
     </dependency>
 
     ```
+3. codeing
+    
+    1.1 编写启动类
+    ```java
+    package org.example;
+
+    import org.springframework.boot.SpringApplication;
+    import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+    /**
+    * Hello world!
+    *
+    */
+    @SpringBootApplication
+    public class App 
+    {
+        public static void main( String[] args )
+        {
+            SpringApplication.run(App.class, args);
+        }
+    }
+
+    ```
+
+    1.2 编写控制器
+
+    ```java
+    package org.example.controller;
+
+    import org.springframework.web.bind.annotation.RequestMapping;
+    import org.springframework.web.bind.annotation.RestController;
+
+    @RestController
+    public class HelloController {
+
+        @RequestMapping("/hello")
+        public String hello() {
+            return "hello world!";
+        }
+    }
+
+    ```
