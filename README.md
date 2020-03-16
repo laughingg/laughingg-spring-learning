@@ -1,1 +1,1 @@
-# laughingg-spring-learning
+# spring-learning
