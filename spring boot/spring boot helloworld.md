@@ -26,3 +26,24 @@ Spring boot 特性
     ![#](./Snip20200316_19.png)
     ![#](./Snip20200316_18.png)
     ![#](./Snip20200316_21.png)
+
+2. 修改 pom.xml 配置
+    
+    ```xml
+    <!-- spring boot 父节点依赖：引入之后，spring 相关的依赖就不需要填写版本信息， spring boot 会自动选择最合适的版本进行添加 -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.2.5.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
+    <!-- spring-boot-starter-web：提供的是 spring mvc 相关的依赖包  -->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+      <version>2.2.5.RELEASE</version>
+    </dependency>
+
+    ```
